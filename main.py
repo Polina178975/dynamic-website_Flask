@@ -16,11 +16,13 @@ def test():
     result = get_question_after(session["last_question"], session["quez"])
     if  result is None or len(result) == 0
     else:
-        session['last_question'] = result[0]
+        ['last_question'] = result[0]
         return'h1'+ str(session['quiz']) + '<br>' + str(result + '</h1>')
 def result()
 end_quiz()
 
+if 0:
+    pass
 
 app = Flask(__name__)/.git 
 
