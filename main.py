@@ -22,7 +22,8 @@ def result()
 end_quiz()
 
 
-app = Flask(__name__)
+app = Flask(__name__)/.git 
+
 
 
 app.add_url_rule('/', 'index', index)
